@@ -1,0 +1,129 @@
+body {
+  height: 100vh;
+  width: 1000vw;
+  margin: 0px;
+}
+
+.lot-container {
+  display: inline-block;
+  overflow: scroll;
+  width: 1000vw;
+}
+
+@media screen and (max-width: 560px) {
+  body {
+    font-size: 1em;
+  }
+  .lot {
+    display: inline-block;
+    width: 70vw;
+    height: auto;
+    margin: 5vw;
+    margin-top: 0vw;
+  }
+  .article-container {
+    width: 100%;
+    height: 50vh;
+    box-shadow: -20px 10px 20px rgba(125, 125, 125, 0.8);
+    margin-bottom: 5vh;
+  }
+}
+
+@media screen and (min-width: 561px) {
+  body {
+    font-size: 1em;
+  }
+  .lot {
+    display: inline-block;
+    width: 50vw;
+    height: auto;
+    margin: 5vw;
+    margin-top: 0vw;
+  }
+  .article-container {
+    width: 100%;
+    height: 70vh;
+    box-shadow: -20px 10px 20px rgba(125, 125, 125, 0.8);
+    margin-bottom: 5vh;
+  }
+}
+
+.month {
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+  height: 5%;
+  text-align: center;
+  font-weight: bold;
+  background-color: white;
+  box-shadow: -5px 5px 5px rgba(125, 125, 125, 0.8);
+}
+
+.article {
+  width: 90%;
+  height: 90%;
+  margin: auto;
+}
+
+h2 {
+  padding-top: 20px;
+  margin: 20px;
+}
+
+.passage {
+  overflow: scroll;
+  height: 70%;
+  width: 100%;
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+
+.button {
+  display: inline;
+  margin: 10px;
+  box-shadow: -5px 5px 5px rgba(125, 125, 125, 0.8);
+}
+
+.back {
+  background-color: #dedede;
+}
+
+.middle {
+  background-color: #efefef;
+}
+
+.front {
+  background-color: white;
+}
+
+.lot > section {
+  background-color: white;
+}
+
+#const > section {
+  background-color: lightgray;
+}
+
+#feb > section {
+  background-color: lightyellow;
+}
+
+#apr > section {
+  background-color: pink;
+}
+
+#jun > section {
+  background-color: lightgreen;
+}
+
+#aug > section {
+  background-color: lightblue;
+}
+
+#oct > section {
+  background-color: orange;
+}
+
+#dec > section {
+  background-color: silver;
+}

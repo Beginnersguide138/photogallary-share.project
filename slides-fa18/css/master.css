@@ -1,0 +1,105 @@
+/* General Body Styles */
+body {
+  margin: 0;
+  font-family: 'Hiragino Kaku Gothic ProN', sans-serif;
+}
+
+/* Passage Styles */
+.passage {
+  top: 30%;
+  position: absolute;
+  z-index: 1;
+  font-size: 2em;
+  color: #e0e0e0e0;
+  height: 90vh;
+  overflow: scroll;
+}
+
+/* Top Bar (Navigation) Styles */
+div.tb {
+  display: flex;
+  justify-content: flex-start;
+  position: fixed;
+  opacity: 0.7;
+  color: white;
+  width: 100vw;
+  max-height: 10vh;
+  font-size: 3em;
+  flex-grow: 1;
+  flex-wrap: wrap;
+  z-index: 1;
+}
+
+.tb > div {
+  margin: 2vw;
+}
+
+/* Paragraph Styles within Sections */
+section > p {
+  margin: 0;
+  font-weight: bold;
+}
+
+/* Specific Section Styles */
+#about-p > p {
+  color: #e5fdfdcf;
+}
+
+#body {
+  position: absolute;
+  width: 100vw;
+}
+
+#body > section > p {
+  color: #ffdfdfdf;
+}
+
+#operational {
+  position: absolute;
+  width: 100vw;
+}
+
+#operational > section > p {
+  color: #fff6c3e0;
+}
+
+#variants {
+  position: absolute;
+  width: 100vw;
+}
+
+#variants > section > p {
+  color: #a6bbe4de;
+}
+
+#gallery {
+  position: absolute;
+  width: 100vw;
+}
+
+/* Image Styles */
+img {
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover; /* Prevents image distortion */
+}
+
+/* Floating text Style */
+div.float {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  color: rgba(255, 255, 255, 0.4);
+}
+
+/* Empty rules for semantic elements, can be removed if not used for targeting */
+#origins,
+#design,
+#us,
+#au,
+#ca,
+#fi,
+#ab,
+#cd,
+#ef {
+}
